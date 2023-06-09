@@ -2,7 +2,7 @@ resources:
   - ../../base
   - namespace.yaml
   - service.yaml
-  - ingress.yaml
+#   - ingress.yaml
 
 configMapGenerator:
 - name: example-app
