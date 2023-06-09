@@ -1,0 +1,12 @@
+resources:
+  - ../../base
+  - namespace.yaml
+  - service.yaml
+  - ingress.yaml
+
+configMapGenerator:
+- name: example-app
+  literals:
+    - STAGE="STAGING"
+
+namespace: example-app-staging

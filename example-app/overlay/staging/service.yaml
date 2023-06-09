@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-nginx
+spec:
+  selector:
+    app: example-app
+  type: ClusterIP
+  ports:
+    - name: my-nginx
+      protocol: TCP
+      port: 80
