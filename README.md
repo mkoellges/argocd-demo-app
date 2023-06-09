@@ -1,1 +1,1 @@
-# argocd-demo-app
+# ArgoCD Demo Example App
