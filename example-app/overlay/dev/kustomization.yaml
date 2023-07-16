@@ -1,13 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-metadata:
-  name: example-app
 
 resources:
-  - ../../base
-  - namespace.yaml
-  - service.yaml
-  - ingress.yaml
+- ../../base
+- namespace.yaml
+- service.yaml
+- ingress.yaml
 
 configMapGenerator:
 - name: example-app
